@@ -12,16 +12,14 @@ $(function() {
     });
   });
 
-  $("#womanimage").html('<img src="img/cat.png">');
-  $("#womanquote").html('Meow meow meow meow' + '<span> ~Cat</span>');
+
+  var womanimage = '"img/cat.png"'
+  var womanquote = "Meow meow meowwww"
+  var womanname = "Cat"
+
+  $("#womanimage").html(`<img src=${womanimage}>`);
+  $("#womanquote").html(`"${womanquote}" <span> -${womanname}</span>`);
 
 });
-
-
-/*random number from 0-array.length
-geting:
-        var womanimage =
-        var womanquote =
-        var womanname =*/
 
 

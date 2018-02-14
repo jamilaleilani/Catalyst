@@ -14,7 +14,10 @@
 
 #quotespage {
   background-color: purple;
-  width: 90%;
+  width: 100%;
   height: 30em;
-  margin: 0 auto;
+}
+
+#womanquote {
+  text-align: center
 }
