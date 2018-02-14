@@ -11,13 +11,70 @@
   align-items: center;
 }
 
+button {
+ background-color: #CFB3FF;
+ border-radius: 40px;
+ padding: 20px 100px;
+ /*box-shadow: 0px 1px 2px 0 #B8B3FF;*/
+ font-style: "Helvetica Neue Medium";
+ border: none;
+ border-bottom: .2em solid #B8B3FF;
+ color: white;
+ font-size: 1.5em;
+}
 
-#quotespage {
-  background-color: purple;
+/*Start Page*/
+
+main {
+  background: linear-gradient(#A87DE7, #FF6CB1);
   width: 100%;
-  height: 30em;
+}
+
+#logo {
+  width: 90%;
+  margin-top: 7em;
+}
+
+#avatar {
+  width: 80%;
+}
+
+/*Quotes page*/
+#womanquote, #womanimage {
+  text-align: center;
+}
+
+#quotecard {
+  width: 100%;
 }
 
 #womanquote {
-  text-align: center
+  width: 90%;
+  background-color: white;
+  color: black;
+  padding: 1em 1em;
+  border-radius: 30em;
+  margin: 5em auto;
+}
+
+#womanimage {
+  background-image: url("");
+}
+
+#womanimage img {
+  background-color: green;
+  width: 30%;
+  border-radius: 8em;
+}
+
+/*responsive for desktop as well as mobile*/
+
+@media only screen and (min-width: 900px) {
+  #logo {
+    width: 50%;
+  }
+
+  #avatar {
+    width: 40%;
+  }
 }
