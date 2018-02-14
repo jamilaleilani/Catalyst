@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-size: 12px;
+  font-family: "Open Sans";
 }
 
 .pages {
@@ -16,7 +17,6 @@ button {
  border-radius: 40px;
  padding: 20px 100px;
  /*box-shadow: 0px 1px 2px 0 #B8B3FF;*/
- font-style: "Helvetica Neue Medium";
  border: none;
  border-bottom: .2em solid #B8B3FF;
  color: white;
@@ -48,22 +48,47 @@ main {
   width: 100%;
 }
 
-#womanquote {
+#quotespage button {
+  margin-top: 4em;
+}
+
+#quotecard {
   width: 90%;
   background-color: white;
-  color: black;
   padding: 1em 1em;
   border-radius: 30em;
-  margin: 5em auto;
+  margin: 3em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#womanquote {
+  width: 77%;
+}
+
+#womanquote p {
+  font-size: 1.4em;
+  line-height: 2em;
+  color: #9013FE;
+}
+
+#womanquote span {
+  font-size: 1.1em;
+  color: #6417BF;
+}
+
 
 #womanimage {
   background-image: url("");
 }
 
 #womanimage img {
-  background-color: green;
-  width: 30%;
+  position: fixed;
+  top: 29em;
+  left: 60%;
+  z-index: 1;
+  width: 35%;
   border-radius: 8em;
 }
 

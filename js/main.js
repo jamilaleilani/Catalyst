@@ -3,8 +3,8 @@ $(function() {
 
   $("main").css("height", $(window).height());
 
-  $("#womanquote").css("height", $("#womanquote").width());
-  console.log($("#womanquote").width());
+  $("#quotecard").css("height", $("#quotecard").width());
+  console.log($("#quotecard").width());
 
   $("#quotespage").hide();
 
@@ -26,13 +26,13 @@ $(function() {
       data: {
       },
       success: function(response) {
-          var randomcompliment = Math.floor((Math.random()*response.length)+1);
+          var randomcompliment = Math.floor((Math.random()*response.length));
           var womanname = response[randomcompliment].name;
           var womanquote = response[randomcompliment].quote;
           var womanimage = response[randomcompliment].image_url;
 
           $("#womanimage").html(`<img src=${womanimage}>`);
-          $("#womanquote").html(`<span>"${womanquote}"</span> <span id="quoteauthor"> -${womanname}</span>`);
+          $("#womanquote").html(`<p>"${womanquote}" <br><span> -${womanname}</span></p>`);
          },
 
         error: function(response){
