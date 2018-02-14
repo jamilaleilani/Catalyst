@@ -4,6 +4,17 @@
   font-size: 12px;
 }
 
+.pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #quotespage {
-  display: none;
+  background-color: purple;
+  width: 90%;
+  height: 30em;
+  margin: 0 auto;
 }

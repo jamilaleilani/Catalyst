@@ -1,6 +1,8 @@
 $(function() {
   console.log("JS working")
 
+  $("#quotespage").hide();
+
   $(function() {
     console.log("function working")
     $("#startpagebutton").on("click", function() {
@@ -10,4 +12,16 @@ $(function() {
     });
   });
 
+  $("#womanimage").html('<img src="img/cat.png">');
+  $("#womanquote").html('Meow meow meow meow' + '<span> ~Cat</span>');
+
 });
+
+
+/*random number from 0-array.length
+geting:
+        var womanimage =
+        var womanquote =
+        var womanname =*/
+
+
