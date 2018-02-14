@@ -102,25 +102,19 @@ main {
   #quotecard {
     width: 40%;
     padding: 1em 1em;
-    margin: 3em auto;
     }
 
   #womanquote p {
     font-size: 1.7em;
-    line-height: 2em;
-    color: #9013FE;
   }
 
   #womanquote span {
     font-size: 1.3em;
-    color: #6417BF;
   }
 
   #womanimage img {
-    position: absolute;
     top: 35em;
     left: 60%;
-    z-index: 1;
     width: 15%;
     border-radius: 10em;
   }
