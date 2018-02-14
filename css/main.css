@@ -27,6 +27,7 @@ button {
 
 main {
   background: linear-gradient(#A87DE7, #FF6CB1);
+  position: fixed;
   width: 100%;
 }
 
@@ -49,7 +50,9 @@ main {
 }
 
 #quotespage button {
-  margin-top: 4em;
+  position: fixed;
+  bottom: 2em;
+
 }
 
 #quotecard {
@@ -61,6 +64,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 12em;
 }
 
 #womanquote {
@@ -81,16 +86,16 @@ main {
 
 #womanimage img {
   position: fixed;
-  top: 29em;
+  bottom: 10em;
   left: 60%;
   z-index: 1;
   width: 35%;
-  border-radius: 8em;
+  border-radius: 15em;
 }
 
 /*responsive for desktop as well as mobile*/
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   #logo {
     width: 50%;
   }
@@ -100,9 +105,8 @@ main {
   }
 
   #quotecard {
-    width: 40%;
-    padding: 1em 1em;
-    }
+    width: 45em;
+  }
 
   #womanquote p {
     font-size: 1.7em;
@@ -113,14 +117,8 @@ main {
   }
 
   #womanimage img {
-    top: 35em;
     left: 60%;
-    width: 15%;
-    border-radius: 10em;
-  }
-
-  #quotespage button {
-    margin-top: 0;
+    width: 20em;
   }
 
 }

@@ -6,6 +6,11 @@ $(function() {
   $("#quotecard").css("height", $("#quotecard").width());
   console.log($("#quotecard").width());
 
+  $(window).on("resize", function() {
+    $("#quotecard").css("height", $("#quotecard").width());
+    console.log($("#quotecard").width());
+  });
+
   $("#quotespage").hide();
 
   $(function() {
