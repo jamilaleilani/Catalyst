@@ -75,12 +75,8 @@ main {
 
 #womanquote span {
   font-size: 1.1em;
+  line-height: 2em;
   color: #6417BF;
-}
-
-
-#womanimage {
-  background-image: url("");
 }
 
 #womanimage img {
@@ -94,12 +90,43 @@ main {
 
 /*responsive for desktop as well as mobile*/
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 700px) {
   #logo {
     width: 50%;
   }
 
   #avatar {
-    width: 40%;
+    width: 30%;
   }
+
+  #quotecard {
+    width: 40%;
+    padding: 1em 1em;
+    margin: 3em auto;
+    }
+
+  #womanquote p {
+    font-size: 1.7em;
+    line-height: 2em;
+    color: #9013FE;
+  }
+
+  #womanquote span {
+    font-size: 1.3em;
+    color: #6417BF;
+  }
+
+  #womanimage img {
+    position: fixed;
+    top: 35em;
+    left: 60%;
+    z-index: 1;
+    width: 15%;
+    border-radius: 10em;
+  }
+
+  #quotespage button {
+    margin-top: 0;
+  }
+
 }
