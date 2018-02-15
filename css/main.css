@@ -27,7 +27,6 @@ button {
 
 main {
   background: linear-gradient(#A87DE7, #FF6CB1);
-  position: fixed;
   width: 100%;
 }
 
@@ -97,11 +96,11 @@ main {
 
 @media only screen and (min-width: 600px) {
   #logo {
-    width: 50%;
+    width: 45em;
   }
 
   #avatar {
-    width: 30%;
+    width: 40em;
   }
 
   #quotecard {
