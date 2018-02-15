@@ -83,6 +83,7 @@ main {
   z-index: 1;
   width: 35%;
   border-radius: 15em;
+  animation: ease-in;
 }
 
 /*responsive for desktop as well as mobile*/
