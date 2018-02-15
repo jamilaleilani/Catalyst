@@ -77,6 +77,7 @@ main {
 #womanimage {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center top;
   position: fixed;
   bottom: 10em;
   left: 60%;
