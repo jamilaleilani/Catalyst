@@ -44,27 +44,20 @@ main {
   text-align: center;
 }
 
-#quotecard {
-  width: 100%;
-}
-
 #quotespage button {
   position: fixed;
   bottom: 2em;
-
 }
 
 #quotecard {
   width: 90%;
   background-color: white;
-  padding: 1em 1em;
   border-radius: 30em;
-  margin: 3em auto;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 12em;
+  bottom: 15em;
 }
 
 #womanquote {
@@ -116,7 +109,6 @@ main {
   }
 
   #womanimage img {
-    left: 60%;
     width: 20em;
   }
 

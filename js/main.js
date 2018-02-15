@@ -1,23 +1,18 @@
 $(function() {
-  console.log("JS working")
 
   $("main").css("height", $(window).height());
 
   $("#quotecard").css("height", $("#quotecard").width());
-  console.log($("#quotecard").width());
 
   $(window).on("resize", function() {
     $("#quotecard").css("height", $("#quotecard").width());
     $("main").css("height", $(window).height());
-
   });
 
   $("#quotespage").hide();
 
   $(function() {
-    console.log("function working")
     $("#startpagebutton").on("click", function() {
-      console.log("click working?")
       $("#startpage").hide();
       $("#quotespage").show();
     });
