@@ -16,7 +16,6 @@ button {
  background-color: #CFB3FF;
  border-radius: 40px;
  padding: 20px 100px;
- /*box-shadow: 0px 1px 2px 0 #B8B3FF;*/
  border: none;
  border-bottom: .2em solid #B8B3FF;
  color: white;
@@ -24,7 +23,6 @@ button {
 }
 
 /*Start Page*/
-
 main {
   background: linear-gradient(#A87DE7, #FF6CB1);
   width: 100%;
@@ -76,14 +74,15 @@ main {
   color: #6417BF;
 }
 
-#womanimage img {
+#womanimage {
+  background-repeat: no-repeat;
+  background-size: cover;
   position: fixed;
   bottom: 10em;
   left: 60%;
+  width: 38%;
   z-index: 1;
-  width: 35%;
-  border-radius: 15em;
-  animation: ease-in;
+  border-radius: 20em;
 }
 
 /*responsive for desktop as well as mobile*/
@@ -109,8 +108,8 @@ main {
     font-size: 1.3em;
   }
 
-  #womanimage img {
-    width: 20em;
+  #womanimage {
+    width: 19em;
   }
 
 }
